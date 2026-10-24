@@ -142,7 +142,6 @@ static void wle(uint32_t val, uint32_t *x)
 {
 	put_unaligned_le32(val, x);
 }
-
 static uint64_t (*r8)(const uint64_t *);
 static uint32_t (*r)(const uint32_t *);
 static uint16_t (*r2)(const uint16_t *);
